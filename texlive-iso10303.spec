@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/isostds/iso10303
+# catalog-date 2007-01-09 14:09:22 +0100
+# catalog-license lppl
+# catalog-version 1.5
 Name:		texlive-iso10303
 Version:	1.5
 Release:	1
@@ -95,6 +101,7 @@ packages have been published by ISO.
 %doc %{_texmfdistdir}/source/latex/iso10303/step4ht.ins
 %doc %{_texmfdistdir}/source/latex/iso10303/stepe.dtx
 %doc %{_texmfdistdir}/source/latex/iso10303/stepe.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -105,3 +112,5 @@ packages have been published by ISO.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
