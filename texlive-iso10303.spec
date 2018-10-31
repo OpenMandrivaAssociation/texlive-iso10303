@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-iso10303
 Version:	1.5
-Release:	10
+Release:	11
 Summary:	Typesetting the STEP standards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isostds/iso10303
