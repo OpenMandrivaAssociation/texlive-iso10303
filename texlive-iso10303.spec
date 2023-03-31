@@ -1,6 +1,6 @@
 Name:		texlive-iso10303
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typesetting the STEP standards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isostds/iso10303
